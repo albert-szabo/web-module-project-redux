@@ -12,7 +12,7 @@ import './index.css';
 const store = createStore(reducer);
 
 ReactDOM.render(
-  <Provider>
+  <Provider store={store}>
     <Router>
         <App />
     </Router>
